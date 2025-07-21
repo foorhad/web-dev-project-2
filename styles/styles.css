@@ -1,0 +1,91 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Work Sans;
+
+}
+
+/* shared style */
+.display-flex {
+    display: flex;
+}
+
+/* dark 02 */
+.text-gray {
+    color: #424242;
+}
+
+/* dark 03 */
+.text-light-gray {
+    color: #131313;
+}
+
+.btn {
+    background-color: #ff900e;
+    padding: 20px 25px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 700px;
+    color: white;
+    border: none;
+}
+
+.bg-light {
+    background-color: rgba(255, 144, 14, 0.1);
+}
+
+/* navbar style */
+.brand {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    list-style: none;
+}
+
+.nav-link {
+    text-decoration: none;
+    margin-right: 20px;
+    font-size: 1.1rem;
+    font-weight: 400px;
+}
+
+header {
+    padding: 50px;
+}
+
+.navbar,
+.banner {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+/* banner related style */
+.banner-content {
+    max-width: 850px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.banner-title {
+    font-size: 4rem;
+    font-weight: bold;
+}
+
+.banner-descriptions {
+    font-size: 0.80rem;
+    font-weight: 400;
+    margin: 20px auto;
+}
+
+.banner-image {
+    width: 100%;
+}
+
+/* footer style */
