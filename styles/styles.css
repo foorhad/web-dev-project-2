@@ -188,7 +188,8 @@ main>section {
 }
 
 /* facts section */
-.some-facts-section {
+.some-facts-section,
+.sponser-part {
     margin-left: 100px;
     margin-right: 100px;
 }
@@ -212,4 +213,31 @@ main>section {
     justify-content: space-around;
 }
 
+
+/* sponerser style */
+.sponser-icon {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.sponser-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sponser-icon img {
+    filter: grayscale(100%);
+}
+
 /* footer style */
+footer {
+    margin: 130px 100px;
+    background-color: #FFF4E7;
+    border-radius: 10px;
+    padding: 8px;
+    text-align: center;
+}
+
+.footer-des {
+    font-size: 1.4rem;
+}

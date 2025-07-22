@@ -7,11 +7,12 @@
     .boxs {
         flex-direction: column;
         align-items: center;
-        gap: 20px;
+        gap: 50px;
     }
 
     .image-section {
         grid-template-columns: repeat(1, 1fr);
+        justify-content: center;
     }
 
     .primary-btn {
@@ -23,6 +24,10 @@
         max-width: 300px;
     }
 
+    .sponser-icon {
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
 
 
 }
@@ -52,6 +57,12 @@
         grid-template-columns: repeat(2, 1fr);
         gap: 10px;
 
+    }
+
+    .sponser-icon {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+        justify-items: center;
     }
 
 }
