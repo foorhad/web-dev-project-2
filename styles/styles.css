@@ -24,8 +24,9 @@
     color: #727272;
 }
 
+
 .btn {
-    background-color: #ff900e;
+    background-color: #FF900E;
     padding: 20px 25px;
     border-radius: 10px;
     font-size: 1rem;
@@ -121,7 +122,7 @@ main>section {
 }
 
 .feaures-title {
-    font-size: 45px;
+    font-size: 2.8rem;
 }
 
 .gray-part {
@@ -135,9 +136,12 @@ main>section {
 
 /* features-section */
 .features-you-will-enjoy {
+    max-width: 1440px;
+    margin: 0 auto;
+    margin-top: 130px;
     gap: 54px;
-    padding-left: 200px;
-    padding-right: 200px;
+    padding-left: 100px;
+    padding-right: 100px;
 }
 
 .featues-image img {
@@ -151,13 +155,61 @@ main>section {
 
 .card {
     border: 2px solid white;
-    border-radius: 10px;
-    box-shadow: 1px 1px 5px grey;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.1);
     border: none;
-    padding: auto;
+    padding: 25px;
     width: 500px;
     margin-bottom: 20px;
 }
 
+.card-title {
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.years {
+    font-size: 4em;
+    font-weight: bold;
+}
+
+.experience {
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.remove-mergin {
+    margin: 5px auto;
+}
+
+.primary-btn {
+    margin-left: -100px;
+    margin-top: -80px;
+}
+
+/* facts section */
+.some-facts-section {
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.fact-title {
+    font-size: 2.8rem;
+    font-weight: bold;
+}
+
+.box {
+    border: 1px solid #ff900e;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+
+}
+
+.boxs {
+    /* gap: 20px; */
+    justify-content: space-around;
+}
 
 /* footer style */

@@ -2,7 +2,9 @@
 
     .navbar,
     .nav-links,
-    .features-section {
+    .features-section,
+    .features-you-will-enjoy,
+    .boxs {
         flex-direction: column;
         align-items: center;
         gap: 20px;
@@ -12,12 +14,44 @@
         grid-template-columns: repeat(1, 1fr);
     }
 
+    .primary-btn {
+        margin: 0;
+        margin-top: 5px;
+    }
+
+    .card {
+        max-width: 300px;
+    }
+
+
+
 }
 
 /* medium device */
 @media screen and (min-width:577px) and (max-width:992px) {
-    .features-section {
+
+    .features-section,
+    .features-you-will-enjoy {
         flex-direction: column;
         gap: 20px;
     }
+
+    .primary-btn {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .featues-image {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .boxs {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+
+    }
+
 }
